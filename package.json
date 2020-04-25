@@ -1,0 +1,33 @@
+{
+  "name": "globatar",
+  "version": "1.0.0",
+  "description": "Change avatars in all platform with one click",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenedyktT/globatar.git"
+  },
+  "keywords": [
+    "avatar",
+    "oauth",
+    "manage",
+    "account"
+  ],
+  "author": "Benedykt Tyminski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BenedyktT/globatar/issues"
+  },
+  "homepage": "https://github.com/BenedyktT/globatar#readme",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.3",
+    "passport": "^0.4.1"
+  },
+  "dependencies": {
+    "jest": "^25.4.0"
+  }
+}
