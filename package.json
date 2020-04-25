@@ -4,7 +4,10 @@
   "description": "Change avatars in all platform with one click",
   "main": "main.js",
   "scripts": {
-    "test": "jest"
+    "start": "node/dist/app.js",
+    "test": "jest",
+    "dev": "nodemon src/main.ts",
+    "build": "tsc -p ."
   },
   "repository": {
     "type": "git",
@@ -23,9 +26,13 @@
   },
   "homepage": "https://github.com/BenedyktT/globatar#readme",
   "devDependencies": {
+    "@types/express": "^4.17.6",
+    "@types/node": "^13.13.2",
     "express": "^4.17.1",
     "nodemon": "^2.0.3",
-    "passport": "^0.4.1"
+    "passport": "^0.4.1",
+    "ts-node": "^8.9.0",
+    "typescript": "^3.8.3"
   },
   "dependencies": {
     "jest": "^25.4.0"
