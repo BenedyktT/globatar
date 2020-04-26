@@ -5,7 +5,8 @@
   "main": "main.js",
   "scripts": {
     "start": "node/dist/app.js",
-    "test": "jest",
+    "test": "jest --coverage",
+    "test:watch": "jest --coverage --watchAll",
     "dev": "nodemon src/main.ts",
     "build": "tsc -p ."
   },
@@ -31,8 +32,12 @@
     "express": "^4.17.1",
     "nodemon": "^2.0.3",
     "passport": "^0.4.1",
+    "supertest": "^4.0.2",
+    "ts-jest": "^25.4.0",
     "ts-node": "^8.9.0",
-    "typescript": "^3.8.3"
+    "typescript": "^3.8.3",
+    "@types/jest": "^25.2.1",
+    "@types/supertest": "^2.0.8"
   },
   "dependencies": {
     "jest": "^25.4.0"
